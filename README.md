@@ -1,11 +1,11 @@
-# Assembly and Investigation of the Serine Carboxypeptidase (_CBP1_) gene cluster in Trypanosoma congolense
+# Assembly and Investigation of the Serine Carboxypeptidase (_CBP1_) gene cluster in _Trypanosoma congolense_
 ## Project Background & Aims
-This study aimed to use Oxford Nanopore Technology (ONT) to construct a de novo genome assembly of the wild-type (WT) and five resistant T. congolense cell lines and compare the _CBP1_ genes between the cell lines to gather a better understanding of _CBP1_ cluster region deletions and resistance mechanism of T. congolense against the antitrypanosomal prodrugs.
+This study aimed to use Oxford Nanopore Technology (ONT) to construct a de novo genome assembly of the wild-type (WT) and five resistant T. congolense cell lines and compare the _CBP1_ genes between the cell lines to gather a better understanding of _CBP1_ cluster region deletions and resistance mechanism of _T. congolense_ against the antitrypanosomal prodrugs.
 
 
 ## A set of scripts written for de novo assembly and investigation of _CBP1_ gene clusters in T. congolense 
 **1.1	Pipeline.sh** <br/>
-The Bash Script of the entire de novo assembly pipeline done on a for loop on each sample in the study. For the time being, the sample read files (FASTQ) were hard-coded, but the script can be changed to take in the sample ONT reads (FASTQ file format) as command-line options from the user. In this case, the sample read filenames were changed to remove identity of the drug compounds used for each resistant T. congolense cell line. <br/>
+The Bash Script of the entire de novo assembly pipeline done on a for loop on each sample in the study. For the time being, the sample read files (FASTQ) were hard-coded, but the script can be changed to take in the sample ONT reads (FASTQ file format) as command-line options from the user. In this case, the sample read filenames were changed to remove identity of the drug compounds used for each resistant _T. congolense_ cell line. <br/>
 
 **1.2	QC_Plots.R**<br/>
 The custom R script was written to use the extracted data from NanoPlot results to make plots without subsetting the data. The script also uses the extracted data to determine the lengths of the shortest and longest reads from the given FASTQ samples. The command-line usage is:<br/>
