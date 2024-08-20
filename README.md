@@ -3,7 +3,7 @@
 This study aimed to use Oxford Nanopore Technology (ONT) to construct a de novo genome assembly of the wild-type (WT) and five resistant T. congolense cell lines and compare the _CBP1_ genes between the cell lines to gather a better understanding of _CBP1_ cluster region deletions and resistance mechanism of _T. congolense_ against the antitrypanosomal prodrugs.
 
 
-## A set of scripts written for de novo assembly and investigation of _CBP1_ gene clusters in T. congolense 
+## A set of scripts written for de novo assembly and investigation of _CBP1_ gene clusters in _T. congolense_ 
 **1.1	Pipeline.sh** <br/>
 The Bash Script of the entire de novo assembly pipeline done on a for loop on each sample in the study. For the time being, the sample read files (FASTQ) were hard-coded, but the script can be changed to take in the sample ONT reads (FASTQ file format) as command-line options from the user. In this case, the sample read filenames were changed to remove identity of the drug compounds used for each resistant _T. congolense_ cell line. <br/>
 
