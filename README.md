@@ -1,6 +1,6 @@
 # Assembly and Investigation of the Serine Carboxypeptidase (_CBP1_) gene cluster in _Trypanosoma congolense_
 ## Project Background & Aims
-This study aimed to use Oxford Nanopore Technology (ONT) to construct a de novo genome assembly of the wild-type (WT) and five resistant T. congolense cell lines and compare the _CBP1_ genes between the cell lines to gather a better understanding of _CBP1_ cluster region deletions and resistance mechanism of _T. congolense_ against the antitrypanosomal prodrugs.
+This study aimed to use Oxford Nanopore Technology (ONT) to construct a _de novo_ genome assembly of the wild-type (WT) and five resistant T. congolense cell lines and compare the _CBP1_ genes between the cell lines to gather a better understanding of _CBP1_ cluster region deletions and resistance mechanism of _T. congolense_ against the antitrypanosomal prodrugs.
 
 
 ## A set of scripts written for de novo assembly and investigation of _CBP1_ gene clusters in _T. congolense_ 
